@@ -14,7 +14,7 @@ $(function() {
 
 Now, add a class of `.colourMe` to the HTML element you would like to apply the colour coordination to, 
 
-###Example:
+**For example:**
 ```	
 <div id="box1" class="colourMe">
 	<p>click me</p>
@@ -27,6 +27,6 @@ Colour Coordinate finds the RGB values of each element with the `.colourMe` appl
 #Customization
 Colour Coordinate works with any assigned CSS colour, whether a HEX code `#000000`, color name `black`, or RGB value `rgb(255,0,0)`
 
-###Please Note
+**Please Note**
 Colour Coordinate can be used with **`background-color` only**, not text, borders or photos. 
 
