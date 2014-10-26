@@ -4,7 +4,8 @@ Colour Coordinate provides an interactive experience for your visitors. They cli
 #Getting Started 
 Simply include `colour.js` in your scripts folder, and call the function in your `main.js` :
 
-```$(function() {
+```
+$(function() {
 	$('.colourMe').click(function() {
 		$(this).colourCoord();
 	});
@@ -14,9 +15,10 @@ Simply include `colour.js` in your scripts folder, and call the function in your
 Now, add a class of `.colourMe` to the HTML element you would like to apply the colour coordination to, 
 
 ###Example:
-```	<div id="box1" class="colourMe">
-		<p>click me</p>
-	</div>
+```	
+<div id="box1" class="colourMe">
+	<p>click me</p>
+</div>
 ```
 
 #How it Works
